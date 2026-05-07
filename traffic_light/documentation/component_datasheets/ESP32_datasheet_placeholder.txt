@@ -1,0 +1,45 @@
+ESP32 Datasheet Placeholder
+===========================
+
+This file is a placeholder for the ESP32 datasheet.
+Please replace this file with the actual datasheet PDF from Espressif Systems.
+
+Component Information:
+- Part Number: ESP32-WROOM-32, ESP32-WROVER, or equivalent
+- Function: Dual-core WiFi + Bluetooth microcontroller
+- Purpose in Project: Reads traffic light signals and controls LCD display
+- Key Features:
+  * Dual-core Tensilica LX6 microprocessor
+  * WiFi 802.11 b/g/n (up to 150 Mbps)
+  * Bluetooth v4.2 BR/EDR and BLE
+  * 520KB SRAM
+  * Multiple peripherals: SPI, I2C, UART, ADC, DAC, etc.
+  * Operating Voltage: 2.3V to 3.6V
+  * Operating Temperature: -40°C to +85°C
+
+Project-Specific Usage:
+- GPIO 21: I2C SDA (LCD Display)
+- GPIO 22: I2C SCL (LCD Display)
+- GPIO 32: RED signal input (with internal pulldown)
+- GPIO 33: YELLOW signal input (with internal pulldown)
+- GPIO 25: GREEN signal input (with internal pulldown)
+- UART0: USB Serial for programming and debugging
+
+To obtain the official documentation:
+1. Visit Espressif Systems website: https://www.espressif.com/
+2. Navigate to Products -> ESP32 -> Documentation
+3. Download:
+   * ESP32 Datasheet (hardware specifications)
+   * ESP32 Technical Reference Register (detailed register descriptions)
+   * ESP32 Hardware Design Guidelines (if designing custom board)
+4. Replace this placeholder file with the actual datasheet
+
+Alternative sources:
+- Espressif GitHub repository
+- Electronic component distributors
+- Development board manufacturers (if using specific dev kit like ESP32 DevKitC)
+
+File size of actual datasheet: Typically 50-100+ pages PDF (~2-5MB)
+Technical Reference Manual: Typically 300-500+ pages PDF (~5-10MB)
+
+Note: For most project needs, the ESP32 Datasheet combined with the Arduino ESP32 core documentation is sufficient.

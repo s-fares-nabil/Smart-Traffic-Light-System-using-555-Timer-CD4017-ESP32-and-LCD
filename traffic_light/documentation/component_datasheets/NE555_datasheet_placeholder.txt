@@ -1,0 +1,29 @@
+NE555 Timer IC Datasheet Placeholder
+====================================
+
+This file is a placeholder for the NE555 Timer IC datasheet.
+Please replace this file with the actual datasheet PDF from the manufacturer.
+
+Component Information:
+- Part Number: NE555, LM555, or equivalent
+- Function: Timer IC configured as astable multivibrator
+- Purpose in Project: Generates clock pulses for the CD4017 decade counter
+- Key Parameters:
+  * Operating Voltage: 4.5V to 15V
+  * Timing: Microseconds to hours
+  * Output Current: Up to 200mA
+  * Temperature Range: 0°C to 70°C
+
+To obtain the official datasheet:
+1. Visit manufacturer websites (Texas Instruments, STMicroelectronics, etc.)
+2. Search for "NE555 datasheet" or "LM555 datasheet"
+3. Download the PDF version
+4. Replace this placeholder file with the actual datasheet
+
+Alternative: You can also find datasheets on electronic component distributors like:
+- Digi-Key
+- Mouser
+- Arrow
+- Farnell
+
+File size of actual datasheet: Typically 10-20 pages PDF (~500KB-2MB)

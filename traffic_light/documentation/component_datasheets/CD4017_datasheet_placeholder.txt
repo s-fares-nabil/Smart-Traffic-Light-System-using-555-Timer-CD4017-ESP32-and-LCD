@@ -1,0 +1,37 @@
+CD4017 Decade Counter IC Datasheet Placeholder
+==============================================
+
+This file is a placeholder for the CD4017 (or HCF4017) Decade Counter IC datasheet.
+Please replace this file with the actual datasheet PDF from the manufacturer.
+
+Component Information:
+- Part Number: CD4017BE, HCF4017, or equivalent
+- Function: 5-stage Johnson decade counter with 10 decoded outputs
+- Purpose in Project: Sequences through traffic light states (Q0-Q9)
+- Key Parameters:
+  * Operating Voltage: 3V to 15V (CD4017 series)
+  * Clock Frequency: Up to 5MHz (typical)
+  * Output Drive: Standard B-series CMOS output
+  * Temperature Range: -55°C to +125°C
+
+Pinout Description (for traffic light application):
+- Clock Input (Pin 14): Receives pulses from 555 timer
+- Clock Inhibit (Pin 13): Usually tied to ground
+- Reset (Pin 15): Connected to Q10 (Pin 11) for automatic reset after 10 counts
+- Decoded Outputs (Pins 1-7, 9-11): Q0-Q9 (Pin 15 is not an output)
+  * Q0-Q3: Red LED phase (4 steps)
+  * Q4: Yellow LED phase (1 step)
+  * Q5-Q9: Green LED phase (5 steps)
+  * Q10 (Pin 11): Triggers reset (connected to Pin 15)
+
+To obtain the official datasheet:
+1. Visit manufacturer websites (Texas Instruments, STMicroelectronics, ON Semiconductor, etc.)
+2. Search for "CD4017 datasheet" or "HCF4017 datasheet"
+3. Download the PDF version
+4. Replace this placeholder file with the actual datasheet
+
+Alternative sources:
+- Electronic component distributors (Digi-Key, Mouser, etc.)
+- Online datasheet repositories (DatasheetDir, Alldatasheet, etc.)
+
+File size of actual datasheet: Typically 8-15 pages PDF (~300KB-1MB)
